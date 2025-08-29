@@ -1,7 +1,6 @@
 {{
     config(
-        materialized='view',
-        location='europe-west1'
+        materialized='view'
     )
 }}
 
