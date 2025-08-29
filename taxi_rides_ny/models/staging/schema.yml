@@ -4,6 +4,7 @@ sources:
   - name: staging
     database: "{{ env_var('DBT_DATABASE', 'kestra-sandbox-469800') }}"
     schema: "{{ env_var('DBT_SCHEMA', 'zoomcamp') }}"
+    location: europe-west1 
       # loaded_at_field: record_loaded_at
     tables:
       - name: green_tripdata
